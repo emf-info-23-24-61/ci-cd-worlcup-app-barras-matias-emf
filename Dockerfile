@@ -1,5 +1,6 @@
 FROM php:8.2-apache
 #va dans le dossier /var/www/html
+LABEL version="2.0-countries"
 WORKDIR /var/www/html
 #copier dans le dossier index.php
 COPY src/index.php .
