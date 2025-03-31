@@ -2,7 +2,7 @@ FROM php:8.2-apache
 #va dans le dossier /var/www/html
 WORKDIR /var/www/html
 #copier dans le dossier index.php
-COPY index.php .
+COPY src/index.php .
 #expose le port 80
 EXPOSE 80
 #commande pour donner les bons droits
